@@ -1,7 +1,7 @@
 import css from './Filter.module.css';
 import { useDispatch, useSelector } from 'react-redux';
 import { selectorFilter } from 'redux/selector';
-import { onFilter } from 'redux/slice';
+import { onFilter } from 'redux/filterSlice';
 
 export const Filter = () => {
   const dispatch = useDispatch();
